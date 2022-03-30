@@ -8,9 +8,16 @@ int main()
     printf("Enter any number here \n");
     scanf("%d",&num);
 
-    for(int i=0 ,j=num; i<=num&&j>=1; i++,j--){     //we can do this same thing in a single loop
+    // for(int i=0 ,j=num; i<=num&&j>=1; i++,j--){     //we can do this same thing in a single loop
 
-        sum=sum+i;
+    //     sum=sum+i;
+    //     printf("%d\n", j);
+        
+    // }
+
+    for(int j=num; j>=1; j--){     //we can do this same thing in a single loop 
+                                     // i can be removed
+        sum=sum+j;
         printf("%d\n", j);
         
     }
