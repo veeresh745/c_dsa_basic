@@ -1,20 +1,23 @@
-/*write two function -one to print hello and second to 
+/*write two function -one to print hello and second to
 print good bye*/
-#include<stdio.h>
+#include <stdio.h>
 void printHello();
 void printGoodbye();
 
-int main(){
-   printHello();
-   printGoodbye();
+int main()
+{
+    printHello();
+    printGoodbye();
 
     return 0;
 }
 
-void printHello(){
+void printHello()
+{
     printf("Hello\n");
 }
 
-void printGoodbye(){
+void printGoodbye()
+{
     printf("Good Bye\n");
 }
