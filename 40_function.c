@@ -1,5 +1,6 @@
 // function important for dsa and real life problems when implemented using recurssion.
 //* function: a block of code that performs particular task
+//*code reusability increases
 #include <stdio.h>
 void printhello(); // declaration or prototype
 
