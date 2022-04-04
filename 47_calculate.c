@@ -1,45 +1,28 @@
 //function to calculate area of a square, circle, and a rectangle.
 #include<stdio.h>
-int areasqaure();
-float areacircle();
-int arearecatangle();
+#include<math.h>
+float squarearea(float side);
+float circlearea(float rad);
+float rectanglearea(float a, float b);
 
 int main(){
-    int side,siderect1,siderect2;
-    float  radius;
-    printf("Enter side of square\n");
-    scanf("%d", &side);
+    float a=5.0;
+    float b=10.0;
 
-    printf("Enter sides of rectangle\n");
-    scanf("%d,%d", &siderect1,&siderect2);
-
-    printf("Enter radius of a circle");
-    scanf("%f", &radius);
-
-    int areasq= areasquare(side);
-    int areacir=areacircle(radius);
-    int arearect=arearectangle(siderect1,siderect2);
-   
-    printf("Area of side is =%d\n", areasq);
-    printf("area of circle is =%f\n", areacir);
-    printf("Area of rectangle is = %d\n", arearect);
-
-    
-
-
+    printf("Area of rectangle is: %f\n", rectanglearea(a,b));
+    printf("Area of Circle is =%f\n", circlearea(5.0));
+    printf("Area of square is = %f\n", squarearea(4.0));
+    return 0;
 }
 
-int areasquare(int s){
-    return s*s;
-
+float squarearea(float side){
+    return side*side;
 }
 
-float areacircle(float r){
-    return 3.14*r*r;
-
+float circlearea(float rad){
+    return 3.14*rad*rad;
 }
 
-int arearectangle(int a, int b){
+float rectanglearea(float a, float b){
     return a*b;
-
 }
