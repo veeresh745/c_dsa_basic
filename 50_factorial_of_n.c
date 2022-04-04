@@ -12,7 +12,7 @@ int main()
 // recursive function
 int facto(int n)
 {
-    if (n == 1)
+    if (n == 0)
     {
         return 1;
     }
