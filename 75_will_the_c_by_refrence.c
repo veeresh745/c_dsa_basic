@@ -4,16 +4,16 @@
 //in call by refrence address will ne printed same
 #include <stdio.h>
 
-void printAddress(int n);
+void printAddress(int *n);
 
 int main()
 {
     int n = 5;
     printf("%p\n", &n);
-    printAddress(n);
+    printAddress(&n);
     return 0;
 }
 //call by value
-void printAddress(int n){
-    printf("%p\n", &n);
+void printAddress(int *n){
+    printf("%p\n", n);
 }
