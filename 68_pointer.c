@@ -1,4 +1,3 @@
-// Make your own pow function.
 #include <stdio.h>
 #include<math.h>
 int main()
@@ -13,9 +12,7 @@ int main()
 
 int power(int a, int b)
 {
-    int result=1;
-    for(int i=1;i<=b;i++){
-        result = result *a;
-    }
+    int result;
+    result = pow(a,b);
     return result;
 }
