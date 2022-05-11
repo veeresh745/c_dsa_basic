@@ -5,7 +5,7 @@ and print all the charater format specifier*/
 void printString(char arr[]);
 int main(){
     char name[50];
-    scanf("%s", name);
+    scanf("%s", name);          //%s automatically adds '\0'
     printf("your name is %s", name);
     return 0;
 

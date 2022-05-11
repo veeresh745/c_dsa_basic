@@ -5,5 +5,5 @@ int main(){
     char username[100];
     fgets(username, 100, stdin);
     puts(username);
-    printf("%s",len(username));
+    
 }
