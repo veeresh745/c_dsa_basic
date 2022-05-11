@@ -1,16 +1,17 @@
 /*Ask the user to enter their firsrtName 
 and print it back to them. And full name
 */
-//
-#include<stdio.h>
+//we will use gets() and puts() also fgets()
+//fgets(str,n,file)- string,file,standard i/o
+#include<stdio.h> 
 void printString(char arr[]);
 int main(){
     // char firstName[50];
     // scanf("%s", firstName);          //%s automatically adds '\0'
     // printf("your name is %s", firstName);
-    char fullName[100];
-    scanf("%s",fullName);
-    printf("Your full name is : %s", fullName);
+    char str[100];
+    gets(str);
+    puts(str);
 
     return 0;
 }
