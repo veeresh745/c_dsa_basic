@@ -2,7 +2,8 @@
 and print it back to them. And full name
 */
 //we will use gets() and puts() also fgets()
-//fgets(str,n,file)- string,file,standard i/o
+//fgets(str,n,file)- string,file,standard i/o. 
+//stops when size reaches n-1
 #include<stdio.h> 
 void printString(char arr[]);
 int main(){
@@ -10,7 +11,7 @@ int main(){
     // scanf("%s", firstName);          //%s automatically adds '\0'
     // printf("your name is %s", firstName);
     char str[100];
-    gets(str);
+    fgets(str, 100, stdin);
     puts(str);
 
     return 0;
