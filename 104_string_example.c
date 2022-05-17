@@ -1,29 +1,17 @@
-//program to implement merge sort
+/*string using pointers:- 1. can be reinitialized(can change value later)
+                          2. store string in memory and the assigned address is stored in the 
+                             char pointer 'str
+                          3.  in array we can't reinitialize the string
+*/
+
 #include<stdio.h>
 int main(){
-    int a[10],n,k,i,j;
-    printf("enter the number of elements in the array\n");
-    scanf("%d",&n);
-    printf("enter the elements of the array\n");
-    for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
-    }
-    printf("the unsorted array is\n");
-    for(i=0;i<n;i++){
-        printf("%d\n",a[i]);
-    }
-    for(i=0;i<n;i++){
-        for(j=i+1;j<n;j++){
-            if(a[i]>a[j]){
-                k=a[i];
-                a[i]=a[j];
-                a[j]=k;
-            }
-        }
-    }
-    printf("the sorted array is\n");
-    for(i=0;i<n;i++){
-        printf("%d\n",a[i]);
-    }
+    char *canChange = "Hello World";
+    puts(canChange);
+    canChange = "Hello";
+    puts(canChange);
+
+    char cannotChange[] = "Hello World";
+    canotChange = "HelloWordl";              //This will throw error as can't be reinitialized.
     return 0;
 }
