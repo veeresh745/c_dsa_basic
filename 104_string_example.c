@@ -3,7 +3,6 @@
                              char pointer 'str
                           3.  in array we can't reinitialize the string
 */
-
 #include<stdio.h>
 int main(){
     char *canChange = "Hello World";
