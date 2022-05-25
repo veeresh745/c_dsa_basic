@@ -10,6 +10,7 @@ int main()
 
     return 0;
 }
+//counting the length of character here.
 int countLength(char arr[])
 {
     int count = 0;
@@ -22,7 +23,7 @@ int countLength(char arr[])
 
 void printString(char arr[])
 {
-    for (int i = 0; arr[i] != '\0'; i++)
+    for (int i = 0; arr[i] != '\0'; i++)    
     {
         printf("%c", arr[i]);
     }
