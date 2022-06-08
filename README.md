@@ -4,4 +4,4 @@ note:
 2. Programs from basics to advanced level covered.
 3. if you have any suggestions, fork this repo and send me a pull request.
 4. if you have any questions, feel free to ask me.
-5. 
+5. i have followed C-course by apni kaksha
