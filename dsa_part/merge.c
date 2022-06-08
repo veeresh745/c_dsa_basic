@@ -1,4 +1,5 @@
 //program to implement merge sort
+//Basically it divide array in two parts and sorts them separately and then merges them together, hence name merge sort.
 #include<stdio.h>
 int main(){
     int a[10],n,k,i,j;
