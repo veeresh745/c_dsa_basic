@@ -20,4 +20,4 @@ int fact(int n)
     return n*fact(n-1);
 }
 //Time complexity: theta(n)
-                // theta (1) oxcillary space
+                // theta (n) oxcillary space
