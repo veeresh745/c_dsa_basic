@@ -1,5 +1,5 @@
 // program to find greatest common divisor
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int gcd(int x, int y);
 int main()

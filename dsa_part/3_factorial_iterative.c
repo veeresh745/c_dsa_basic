@@ -20,3 +20,5 @@ int fact(int n)
     }
     return res;
 }
+//time complexity: theta(n)
+                // theta (1) oxcillary space
