@@ -28,3 +28,4 @@ int lcm(int a, int b)
     }
     return res;
 }
+//Time complexity: O(a*b-max(a,b))
