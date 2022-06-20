@@ -1,4 +1,4 @@
-//Checking if a given number is prime or not
+//Checking if a given number is prime or not efficient.
 #include <bits/stdc++.h>
 using namespace std;
 bool isPrime(int n);
