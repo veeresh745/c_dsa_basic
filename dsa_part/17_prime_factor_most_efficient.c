@@ -60,5 +60,6 @@ int primeFactors(int n)
         {
             printf("%d", n);
         }
-    }
+    } 
 }
+//Time complexity: 
