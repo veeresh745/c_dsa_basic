@@ -1,4 +1,4 @@
-//print prime number smaller than equal to given number.
+//print prime number smaller than equal to given number. 
 #include <bits/stdc++.h>
 using namespace std;
 int printPrimes(int num);

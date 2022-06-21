@@ -20,7 +20,7 @@ int allDivisors(int n)
         }
     }
 
-    for(; i>=1; i--){
+    for(; i>=1; i--){ 
         if(n%i==0)
         {
             printf("%d ", n/i);
