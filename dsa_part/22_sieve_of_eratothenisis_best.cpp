@@ -38,12 +38,12 @@ int sieve(int n)
                 isPrime[j] = false;
             }
         }
-        for (int i = 2; i <= n; i++)
+    }
+    for (int i = 2; i <= n; i++)
+    {
+        if (isPrime[i])
         {
-            if (isPrime[i])
-            {
-                cout << i << " ";
-            }
+            cout << i << " ";
         }
     }
 }
