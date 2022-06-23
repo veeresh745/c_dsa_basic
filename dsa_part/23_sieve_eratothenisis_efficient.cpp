@@ -1,4 +1,5 @@
 //print prime number inlcluding input number if it is prime
+//print prime number
 #include <bits/stdc++.h>
 using namespace std;
 int sieve(int input);
