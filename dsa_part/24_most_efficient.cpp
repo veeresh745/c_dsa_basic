@@ -1,3 +1,4 @@
+//efficient version of sieve of eratothesis
 #include <bits/stdc++.h>
 using namespace std;
 int sieve(int input);
