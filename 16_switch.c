@@ -1,3 +1,4 @@
+//demonstration of switch case
 #include<stdio.h>
 int main()
 {
