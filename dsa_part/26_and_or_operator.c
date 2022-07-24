@@ -1,7 +1,8 @@
-//example of "and" and "OR" operator.
+//example of "and" "OR" and "X-OR" operator.
 #include<stdio.h>
 int main(){
     int a=3,b=6;
     printf("%d\n", a|b);
     printf("%d\n", a&b);
+    printf("%d\n", a^b);
 }
