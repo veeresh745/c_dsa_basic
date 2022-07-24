@@ -1,3 +1,4 @@
+//example of "and" and "OR" operator.
 #include<stdio.h>
 int main(){
     int a=3,b=6;
