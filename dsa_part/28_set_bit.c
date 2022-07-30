@@ -1,7 +1,7 @@
 #include<stdio.h>
 int setBit(int m, int n);
 int main(){
-    setBit(5,1);
+    setBit(2,1);
 }
 
 int setBit(int n, int k){
