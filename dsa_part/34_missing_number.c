@@ -1,6 +1,6 @@
 // find only odd reccurence
 #include <stdio.h>
-int findOdd(int arr1[], int m);
+int findMiss(int arr1[], int m);
 int main()
 {
     int m;
@@ -12,16 +12,20 @@ int main()
     {
         scanf("%d", &arr1[i]);
     }
-    int x = findOdd(arr1, m);
-    printf("%d", x);
+    int x = findMiss(arr1, m);
+    printf("Here it is :%d", x);
 }
 
-int findOdd(int arr[], int n)
+int findMiss(int arr[], int n)
 {
     int res = 0;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n-1; i++)
     {
         res = res ^ arr[i];
+    }
+    for (int i = 0; i <= n; i++)
+    {
+        res = res ^ i;
     }
     return res;
 }
