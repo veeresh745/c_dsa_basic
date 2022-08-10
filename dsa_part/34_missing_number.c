@@ -1,4 +1,4 @@
-// find only odd reccurence
+// find missing number in a series of numbers.
 #include <stdio.h>
 int findMiss(int arr1[], int m);
 int main()
