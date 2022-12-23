@@ -1,3 +1,4 @@
+//print prime number
 #include <bits/stdc++.h>
 using namespace std;
 int sieve(int input);
@@ -33,7 +34,7 @@ int sieve(int n)
     {
         if (isPrime[i])
         {
-            for (int j = 2 * i; j <= n; j = j + i)
+            for (int j = i * i; j <= n; j = j + i)
             {
                 isPrime[j] = false;
             }

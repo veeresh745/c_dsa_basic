@@ -24,8 +24,8 @@ int main()
         }
         if (count % 2 != 0)
         {
-            // printf("here is the val:%d\n", arr[i]);
-            return arr[i];
+            printf("here is the val:%d\n", arr[i]);
+            
         }
     }
 }
